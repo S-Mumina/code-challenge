@@ -93,7 +93,7 @@ async function displayCharacterDetails(id) {
       }
     }
   });
-
+  //Appending child to parent
   detailedInfoDiv.appendChild(nameElement);
   detailedInfoDiv.appendChild(imageElement);
   detailedInfoDiv.appendChild(voteCountElement);
